@@ -7,7 +7,9 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.dev.js --mode development",
     "build": "webpack --config webpack.prod.js",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d lib"
   },
   "jest": {
     "verbose": true,
