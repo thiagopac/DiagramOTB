@@ -1,5 +1,7 @@
 # Diagram OTB
 
+Demo on GitHub Pages: [https://thiagopac.github.io/DiagramOTB/](https://thiagopac.github.io/DiagramOTB/)
+
 O Diagram OTB é uma ferramenta para jogar xadrez no tabuleiro contra o Stockfish ou jogar xadrez vendado.
 
 Para jogar, basta escolher os movimentos possíveis para suas peças e representar no seu tabuleiro o movimento feito pela engine.
