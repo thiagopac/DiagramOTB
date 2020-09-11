@@ -6,6 +6,11 @@
   margin-top: 5px;
   cursor: pointer;
   text-align: center;
+  padding: 6px;
+}
+
+.moveButton:hover{
+  background: #0099CC;
 }
 
 .answer {

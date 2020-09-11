@@ -384,7 +384,7 @@ export class App extends React.Component {
           parentState={this.state}
         />
       </Row>
-      <Row style={{ marginTop: 20 }}>
+      <Row style={{ marginTop: 20, marginBottom: 20 }}>
         {this.state.gameClient.getStatus() == gameStatus.starting ? null :
           <Col xs={6} xsOffset={3}>
             <Button bsStyle="warning" block id="resetButton" onClick={this.reset}>Iniciar novo jogo</Button>
